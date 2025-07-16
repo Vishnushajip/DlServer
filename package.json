@@ -1,0 +1,28 @@
+{
+  "name": "dreamlandserver",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node server.js",
+    "lint": "echo 'Skipping lint...'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase": "^11.5.0",
+    "firebase-admin": "^13.3.0",
+    "firebase-functions": "^6.3.2",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^10.1.0",
+    "mongoose": "^8.12.2",
+    "node-cron": "^3.0.3"
+  },
+  "main": "Server.js"
+}
